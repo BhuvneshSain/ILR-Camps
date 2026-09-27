@@ -1,26 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jan Seva Shivir - ILR</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; 
-            background-color: #f4f6f9; /* Matches your dashboard background */
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jan Seva Shivir - Nagaur ILR</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #f4f6f9;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .fallback {
+      position: fixed;
+      inset: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #16324a;
+      text-align: center;
+    }
+    .fallback a {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: #0f766e;
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-    <!-- Replace the URL below with your Google Apps Script URL -->
-    <iframe src="https://script.google.com/macros/s/AKfycbxR4JdZMwAi0nbl5EYpsTdiQrTlZLPp8Uw5b5mGo2aMuZv2XCXW1f8U6TgivzM5F-9miA/exec"></iframe>
+  <iframe
+    title="Nagaur ILR Dashboard"
+    src="https://script.google.com/macros/s/AKfycbyGRZBiSoLAixGB9LEWSgCqLMykozQdXYCOj6F4sTnaotnzOLdcqwP0DZl67G_dTYD1nQ/exec">
+  </iframe>
+
+  <noscript>
+    <div class="fallback">
+      <div>
+        <h2>Nagaur ILR Dashboard</h2>
+        <p>JavaScript is required to view the dashboard.</p>
+        <a href="https://script.google.com/macros/s/AKfycbyGRZBiSoLAixGB9LEWSgCqLMykozQdXYCOj6F4sTnaotnzOLdcqwP0DZl67G_dTYD1nQ/exec">
+          Open Dashboard
+        </a>
+      </div>
+    </div>
+  </noscript>
 </body>
 </html>
